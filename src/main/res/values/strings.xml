@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Student Manager</string>
+    <string name="SAT_description">
+        The SAT is a standardized test widely used for college admissions in the United States.
+        Introduced in 1926, its name and scoring have changed several times; originally called the
+        Scholastic Aptitude Test, it was later called the Scholastic Assessment Test, then the SAT I:
+        Reasoning Test, then the SAT Reasoning Test, and now, simply the SAT.
+    </string>
+    <string name="GPA_description">
+        A position point average is a number representing the average value of the accumulated final grades
+        earned in courses over time. More commonly called a GPA, a student’s position point average is calculated
+        by adding up all accumulated final grades and dividing that figure by the number of grades awarded.
+        This calculation results in a mathematical mean—or average—of all final grades. The most common form
+        of GPA is based on a 0 to 4.0 scale (A = 4.0, B = 3.0, C = 2.0, D = 1.0, and F = 0), with a 4.0
+        representing a “perfect” GPA—or a student having earned straight As in every course
+    </string>
+    <string name="UC_system">
+        The University of California (UC) is a public university system in the U.S. state of California.
+        Under the California Master Plan for Higher Education, the University of California is a part of
+        the state three-system public higher education plan, which also include the California State
+        University system and the California Community Colleges System.
+    </string>
+
+
+    <string name="title_activity_location">Map</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_tab_fragment">TabFragmentActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="editor_activity_title_new_student">Add a Student</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="editor_student_added_success">Saved successfully</string>
+    <string name="editor_student_added_failure">Save failed</string>
+    <string name="student_overview">Student</string>
+    <string name="academic_interest">Academic Interest</string>
+    <string name="position">Grade</string>
+    <string name="hint_student_name">Student Name</string>
+    <string name="hint_school">School Name</string>
+    <string name="hint_grade">Grade</string>
+    <string name="grade_unit">th</string>
+    <string name="interest_humanities">Humanities</string>
+    <string name="interest_sciences">Sciences</string>
+    <string name="interest_engineering">Engineering</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

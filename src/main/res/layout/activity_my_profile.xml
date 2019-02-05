@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myProfileLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBF00"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <EditText
+        android:id="@+id/profileNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textStyle="italic" />
+
+    <Spinner
+        android:id="@+id/gradeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/profileNameEditText" />
+
+    <LinearLayout
+        android:id="@+id/profileLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gradeSpinner"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/fullTimeCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Full-Time"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/partTimeCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Part-Time"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/profileTableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileLinearLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/profileEmailTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profileEmailEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter your email"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/profileAddressTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profileAddressEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter your address"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/profileSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@+id/profileTableLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
+

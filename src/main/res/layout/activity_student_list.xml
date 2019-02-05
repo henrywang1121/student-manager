@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/studentListLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBF00"
+    tools:context=".StudentListActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/editorFab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@drawable/add"
+                app:backgroundTint="@color/colorCustom" />
+
+            <TextView
+                android:id="@+id/text_view_student"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/editorFab"
+                android:padding="@dimen/activity_margin"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
