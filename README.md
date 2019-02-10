@@ -1,4 +1,5 @@
-# Student Management App
+# Student Planner App
 
-An AngularJS web app that allows teachers/counselors to manage a list of
-students, edit their profile, and visualize their academic stats.
+An Android app with Java that enables teachers/counselors to view the student/teacher
+list and access information about the University of California and provides features like
+calendar, GPA calculator, and phone call.
